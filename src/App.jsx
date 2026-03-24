@@ -77,6 +77,19 @@ function QRcode() {
 
   // Isolated CSS styles hanya untuk komponen ini
   const qrCodeStyles = `
+    /* Reset margin body untuk menghilangkan celah putih */
+  body {
+    margin: 0 !important;
+    padding: 0 !important;
+    background-color: var(--bg-primary);
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Pastikan html juga tidak memiliki margin/padding */
+  html {
+    margin: 0;
+    padding: 0;
+  }
     .qr-code-page {
       --bg-primary: #ffffff;
       --bg-secondary: #f8f9fa;

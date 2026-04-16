@@ -487,8 +487,8 @@ function QRcode() {
   // Semua button disimpan di array, termasuk Rate Card Kerjasama
   const allButtons = [
     {
-      href: 'https://www.youtube.com/@tvrisumaterautara',
-      title: 'Youtube TVRI SUMUT',
+      href: 'https://bolagembira.tvrinews.com/',
+      title: 'Nobar Piala Dunia 2026',
       external: true,
     },
     {

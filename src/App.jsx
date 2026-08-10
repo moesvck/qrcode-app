@@ -487,11 +487,6 @@ function QRcode() {
   // Semua button disimpan di array, termasuk Rate Card Kerjasama
   const allButtons = [
     {
-      href: 'https://bolagembira.tvrinews.com/',
-      title: 'Nobar Piala Dunia 2026',
-      external: true,
-    },
-    {
       href: 'https://docs.google.com/forms/d/e/1FAIpQLSed5cu0WfLX7yC2sX2BOu0RmCZyaN8oxZ7iCmCTS6YwRcCEuA/viewform?usp=header',
       title: 'Wadah Aspirasi',
       external: true,

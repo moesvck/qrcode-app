@@ -499,8 +499,8 @@ function QRcode() {
     {
       href: 'https://skm.go.id/share/instansi/59e37bee-8121-4478-a4e2-21b852274bfb/1', // Menggunakan # karena akan membuka modal
       title: 'Survei Kepuasan Masyarakat',
-      external: false,
-      onClick: true, // Menambahkan onClick handler
+      external: true,
+      // onClick: true, // Menambahkan onClick handler
     },
     {
       href: 'https://drive.google.com/drive/folders/1tQrsSPcaXF1aVhavPybdR3sk26q0AwjX?usp=sharing',
